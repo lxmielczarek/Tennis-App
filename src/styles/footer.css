@@ -1,0 +1,23 @@
+.end{
+  text-align:right;
+  margin-right: 2%;
+  position: relative;
+}
+
+.foot{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    background-image: url(../images/hered2.png);;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    color: rgb(156, 148, 148);
+    clear: both;
+    bottom: 0;
+    font-weight: bolder;
+    font-size: larger;
+    height: 40px;
+}
+
+  
