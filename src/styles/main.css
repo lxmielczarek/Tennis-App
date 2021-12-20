@@ -5,6 +5,12 @@
   margin-left: 5%;
   text-shadow: -2.5px 1px black, 1px 2.5px black, 2.5px 1px black, 1px -2.5px black;
 }
+.opiskontakt{
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 5%;
+  text-shadow: -2.5px 1px black, 1px 2.5px black, 2.5px 1px black, 1px -2.5px black;
+}
 .tytul2{
   font-size: 4em;
   color: whitesmoke;
@@ -260,10 +266,10 @@ border: 5px solid black;
 @media screen and (max-width: 900px){
   .table2{
     margin-left: 20%;
-    width: 80%;
+    width: 78%;
     }
     .table2 td,th {
-      font-size: 0.6em !important;
+      font-size: 0.6rem !important;
   }
 }
 

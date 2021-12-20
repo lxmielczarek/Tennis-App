@@ -70,9 +70,13 @@ export default class Contact extends Component {
                         Masz pytania? <br />
                         Skontaktuj się z nami!
                     </div>
+                    <br />
                     <form onSubmit={this.handleSubmit}>
+                        <label for="name" className="opiskontakt">Podaj swoje imie</label>
                         <input name="name" onChange={this.handleChange} value={this.name} type="text" className="feedback-input" placeholder="Imie" />
+                        <label for="email" className="opiskontakt">Podaj swoj email</label>
                         <input name="email" onChange={this.handleChange} value={this.email} type="text" className="feedback-input" placeholder="Email" />
+                        <label for="feedback" className="opiskontakt">Podaj swoje pytanie</label>
                         <textarea name="feedback" onChange={this.handleChange} value={this.feedback} className="feedback-input" placeholder="Twoja wiadomość"></textarea>
                         <input type="submit" value="Wyślij" />
                     </form>
