@@ -9,6 +9,7 @@ import Info from './Pages/Info';
 import Table from './Pages/Table';
 import Profil from './Pages/Profil';
 import Results from './Pages/Results';
+import Wcag from './Pages/Wcag';
 import { Switch, Route, __RouterContext } from 'react-router-dom';
 import { useTransition, animated } from 'react-spring';
 
@@ -35,6 +36,7 @@ const AppLogged = () => {
                             <Route path="/Table" component={Table} />
                             <Route path="/Profil" component={Profil} />
                             <Route path="/Results" component={Results} />
+                            <Route path="/Wcag" component={Wcag} />
                         </Switch>
                     </animated.div>
                 ))}

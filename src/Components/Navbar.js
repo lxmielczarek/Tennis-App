@@ -68,6 +68,10 @@ function Navbar() {
                             <li className="nav-item">
                                 <NavLink to="/Contact" activeClassName="nav-item nav-link active" className="nav-link">  Kontakt</NavLink>
                             </li>
+
+                            <li className="nav-item">
+                                <NavLink to="/Wcag" activeClassName="nav-item nav-link active" className="nav-link">  WCAG</NavLink>
+                            </li>
                         </ul>
 
                         <form className="form-inline">

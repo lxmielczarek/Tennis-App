@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Confirm from './Components/Confirm';
 import Main from './Components/Main';
+import Wcag from './Pages/Wcag';
 import Contact from './Pages/Contact';
 import Info from './Pages/Info';
 import Table from './Pages/Table';
@@ -44,6 +45,7 @@ const App = () => {
                     <Route path="/AppLogged/Table" component={Table} />
                     <Route path="/AppLogged/Profil" component={Profil} />
                     <Route path="/AppLogged/Results" component={Results} />
+                    <Route path="/AppLogged/Wcag" component={Wcag} />
                   </Switch>
                 </animated.div>
               ))}
@@ -67,6 +69,7 @@ const App = () => {
                   <Route path="/Table" component={Table} />
                   <Route path="/AddCode" component={AddCode} />
                   <Route path="/Confirm" component={Confirm} />
+                  <Route path="/Wcag" component={Wcag} />
                 </Switch>
               </animated.div>
             ))}

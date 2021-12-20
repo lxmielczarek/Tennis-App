@@ -24,6 +24,17 @@ padding: 3%;
   text-align: justify;
   font-family: Comic Sans MS, Comic Sans, cursive;
 }
+.tekst2 {
+    background-color: rgba(41, 40, 40, 0.87);
+    padding: 3%;
+    position: absolute;
+    top: 110px;
+    left: 15%;
+    color: white;
+    width: 110%;
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+  }
 .tekst p {
   font-weight: 700;
   font-size: 0.9em;
