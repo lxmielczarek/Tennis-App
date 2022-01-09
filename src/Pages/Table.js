@@ -18,7 +18,7 @@ class Table extends React.Component {
         this.generateTableData4 = this.generateTableData4.bind(this);
         this.generateTableData5 = this.generateTableData5.bind(this);
     }
-    /*  async componentDidMount() {
+      async componentDidMount() {
           var response1 = await fetch('https://teniswebsite.example.com:5001/api/v1/Result/TableLegue/1', {
               credentials: "include",
               method: 'GET',
@@ -83,7 +83,7 @@ class Table extends React.Component {
           var exam5 = await response5.json();
           console.log(exam5);
           this.setState({ table: exam5, loading: false });
-      }*/
+      }
 
     generateTableData1() {
         let res = [];

@@ -14,6 +14,13 @@ class EditProfile extends Component {
                         <input class="form__text-input" onChange={this.Age} type="text" placeholder="Wiek" />
                         <input class="form__text-input" onChange={this.Code} type="text" placeholder="Kod dostępu" required />
                         <textarea name="text" className="AboutMe" placeholder="O mnie/preferowane godziny gry"></textarea>
+                        <label className="radioRank"> Usun konto:
+                        <input className="checkboxRank"
+                            type="checkbox"
+                            onChange={this.handleCheckedChange}
+                            id="agreement-checkbox"
+                        />
+                        </label>
 
                     </div>
                     <div className="Save">

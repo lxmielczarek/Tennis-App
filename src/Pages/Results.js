@@ -16,7 +16,7 @@ const customStyles = {
         width: "450px",
         height: "65vh",
         border: "10px solid black",
-        opacity: "0.67",
+        opacity: "0.9",
         borderRadius: "20px",
         fontFamily: "Comic Sans MS, Comic Sans, cursive"
     }
@@ -32,7 +32,7 @@ const customStyles2 = {
         width: "400px",
         height: "50vh",
         border: "10px solid black",
-        opacity: "0.67",
+        opacity: "0.9",
         borderRadius: "20px",
         fontFamily: "Comic Sans MS, Comic Sans, cursive"
     }

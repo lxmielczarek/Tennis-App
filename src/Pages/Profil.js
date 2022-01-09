@@ -22,7 +22,7 @@ const customStyles = {
     }
 };
 
-class Info extends React.Component {
+class Profil extends React.Component {
     constructor() {
 
         super();
@@ -51,7 +51,6 @@ class Info extends React.Component {
 
         })
         var exam = await response.json();
-        console.log(exam);
         this.setState({ person: exam, loading: false });
 
         var response4 = await fetch('https://teniswebsite.example.com:5001/api/v1/Result/LastMatches', {
@@ -64,7 +63,6 @@ class Info extends React.Component {
             }
         })
         var exam4 = await response4.json();
-        console.log(exam4);
         this.setState({ matches: exam4, loading: false });
 
     }
@@ -72,8 +70,9 @@ class Info extends React.Component {
     generateTableData4() {
         let res = [];
         let tableData4 = this.state.matches;
+        
         for (var i = 0; i < tableData4.length; i++) {
-            if (tableData4[i].league == false) {
+            if (tableData4[i].league == false || tableData4[i].league == "Ranking") {
                 tableData4[i].league = "Ranking"
                 if (tableData4[i].set3 == null) {
                     tableData4[i].set3 = "brak"
@@ -97,7 +96,7 @@ class Info extends React.Component {
         let res = [];
         let tableData5 = this.state.matches;
         for (var i = 0; i < tableData5.length; i++) {
-            if (tableData5[i].league == true) {
+            if (tableData5[i].league == true || tableData5[i].league == "Liga") {
                 tableData5[i].league = "Liga"
 
                 res.push(
@@ -157,7 +156,7 @@ class Info extends React.Component {
 
                         <div className="look">
                             <h3>Ostatnie wyniki - liga</h3>
-                            <table className="tabela" >
+                            <table className="tabela">
                                 <tbody>
 
                                     {this.generateTableData5()}
@@ -212,4 +211,4 @@ class Info extends React.Component {
         )
     }
 }
-export default Info;
+export default Profil;
