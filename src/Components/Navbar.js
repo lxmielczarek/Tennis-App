@@ -92,7 +92,7 @@ function Navbar() {
                     contentLabel="Example Modal"
                 >
 
-                    <h2 ref={_subtitle => (subtitle = _subtitle)}>Witaj</h2>
+                    <h2 ref={_subtitle => (subtitle = _subtitle)}></h2>
                     <br />
                     <Tabs
                         className="tabsy1"

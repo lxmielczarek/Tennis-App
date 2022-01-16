@@ -660,6 +660,36 @@ border: 5px solid black;
   width: 50%;
 }
 
+.w3tytul{
+  font-size: 5em;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 5%;
+  text-shadow: -2.5px 1px black, 1px 2.5px black, 2.5px 1px black, 1px -2.5px black;
+}
+
+.w3{
+  background-color: rgba(41, 40, 40, 0.87);
+    padding: 3%;
+    position: absolute;
+    top: 110px;
+    left: 0px;
+    color: white;
+    width: 80%;
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.w3 p{
+  font-size: large;
+}
+.w3 img{
+  width: 70%;
+}
+.w3 figcaption{
+  font-size: large;
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 750px){
   .RankingResults{
     background-color: rgba(41, 40, 40, 0.6);
@@ -676,10 +706,34 @@ border: 5px solid black;
   .formularz{
     width: 90%;
     }
+
+    .w3{
+      width: 130%;
+      top: 160px;
+    }
+
+    .w3 img{
+      width: 100%;
+    }
+
+    .w3 p{
+      font-size: xx-large;
+    }
+
+    .w3tytul{
+      font-size: 5em;
+    }
   }
 
-  @media only screen and (max-width: 510px){
-    .titulo{font-size: 22px}
+   @media only screen and (max-width: 645px){
+    .titulo{
+      font-size: 22px
+    }
+    .tytul{
+      font-size: 3em;
+    }
+    .tytul2{
+      font-size: 3em;
     }
     .ilosctabs{
     margin-top: 460pt;
@@ -695,3 +749,4 @@ border: 5px solid black;
     background-color: #c9c6c69f;
     border:4px solid black ;
     }
+  }
