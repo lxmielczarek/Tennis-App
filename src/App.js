@@ -33,7 +33,7 @@ const App = () => {
 
         <Route path="/AppLogged" component={AppLogged}>
 
-          <div>
+          <div >
             <header>  <NavbarLogged /> </header>
             <main>
               {transitions.map(({ item, props, key }) => (

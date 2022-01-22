@@ -15,9 +15,15 @@
     color: rgb(156, 148, 148);
     clear: both;
     bottom: 0;
-    font-weight: bolder;
-    font-size: larger;
     height: 40px;
 }
+.foot p{
+  font-weight: bolder;
+  font-size: large;
+}
 
-  
+@media only screen and (max-width: 645px){
+.foot p{
+  font-size:medium;
+}
+}

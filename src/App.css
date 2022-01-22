@@ -10,7 +10,6 @@ html {
 }
 body{
     overflow-x:hidden;
-    overflow-y:hidden;
     background-image: url(./images/srodek1.png);
     background-repeat: no-repeat;
     background-attachment: fixed;

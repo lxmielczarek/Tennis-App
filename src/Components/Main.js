@@ -6,7 +6,7 @@ function Main() {
         <Wrapper>
             <div className="row">
                 <div className="col">
-                    <div className="main">
+                    <div className="main" id="target-one">
                         <br />
                         <br />
                         <br />

@@ -15,7 +15,7 @@ function Info() {
                 </div>
                 <div className="col-5">
 
-                    <p className="tekst">
+                    <p className="tekst" id="target-one">
                         <h2>Regulamin:</h2>
                         <p>1. Zarządcą strony jak i kortów jest Stowarzyszenie Tenisa Zdzieszowice.</p>
                         <p>2. Użytkownikami kortów tenisowych mogą być wyłącznie osoby, które zaakceptowały niniejszy regulamin.</p>

@@ -16,7 +16,7 @@ const customStyles = {
         width: "380px",
         height: "70vh",
         border: "10px solid black",
-        opacity: "0.67",
+        opacity: "0.9",
         borderRadius: "20px",
         fontFamily: "Comic Sans MS, Comic Sans, cursive"
     }

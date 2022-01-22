@@ -7,6 +7,7 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Login from './Login'
 import SignUp from './SignUp';
+import FontSizeChanger from 'react-font-size-changer';
 
 const customStyles = {
     content: {
@@ -52,30 +53,36 @@ function Navbar() {
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <FontSizeChanger
+  targets={['#target-one ']}
+  options={{
+    stepSize: 10,
+    range: 5
+  }}
+/>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent"> 
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
-                                <NavLink exact to="/" activeClassName="nav-item nav-link active" className="nav-link">  Home</NavLink>
+                                <NavLink exact to="/" activeClassName="nav-item nav-link active" className="nav-link" id="target-one">  Home</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/Info" activeClassName="nav-item nav-link active" className="nav-link">  Informacje</NavLink>
+                                <NavLink to="/Info" activeClassName="nav-item nav-link active" className="nav-link" id="target-one">  Informacje</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/Table" activeClassName="nav-item nav-link active" className="nav-link">  Tabele</NavLink>
-                            </li>
-
-                            <li className="nav-item">
-                                <NavLink to="/Contact" activeClassName="nav-item nav-link active" className="nav-link">  Kontakt</NavLink>
+                                <NavLink to="/Table" activeClassName="nav-item nav-link active" className="nav-link" id="target-one">  Tabele</NavLink>
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="/Wcag" activeClassName="nav-item nav-link active" className="nav-link">  WCAG</NavLink>
+                                <NavLink to="/Contact" activeClassName="nav-item nav-link active" className="nav-link" id="target-one">  Kontakt</NavLink>
+                            </li>
+
+                            <li className="nav-item">
+                                <NavLink to="/Wcag" activeClassName="nav-item nav-link active" className="nav-link" id="target-one">  WCAG</NavLink>
                             </li>
                         </ul>
 
                         <form className="form-inline">
-                            <button onClick={openModal} className="btn" type="button" id="myBtn">Zaloguj się</button>
+                            <button onClick={openModal} className="btn" type="button" id="target-one">Zaloguj się</button>
                         </form>
 
                     </div>
@@ -92,7 +99,7 @@ function Navbar() {
                     contentLabel="Example Modal"
                 >
 
-                    <h2 ref={_subtitle => (subtitle = _subtitle)}>Witaj</h2>
+                    <h2 ref={_subtitle => (subtitle = _subtitle)}></h2>
                     <br />
                     <Tabs
                         className="tabsy1"
