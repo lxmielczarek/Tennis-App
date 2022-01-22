@@ -18,72 +18,72 @@ class Table extends React.Component {
         this.generateTableData4 = this.generateTableData4.bind(this);
         this.generateTableData5 = this.generateTableData5.bind(this);
     }
-      async componentDidMount() {
-          var response1 = await fetch('https://teniswebsite.example.com:5001/api/v1/Result/TableLegue/1', {
-              credentials: "include",
-              method: 'GET',
-              headers: {
-                  'Accept': '/*',
-                  'Content-Type': 'application/json',
-                  'Access-Control-Allow-Origin': '*',
-              }
-          })
-          var exam1 = await response1.json();
-          console.log(exam1);
-          this.setState({ person1: exam1, loading: false });
-  
-          var response2 = await fetch('https://teniswebsite.example.com:5001/api/v1/Result/TableLegue/2', {
-              credentials: "include",
-              method: 'GET',
-              headers: {
-                  'Accept': '/*',
-                  'Content-Type': 'application/json',
-                  'Access-Control-Allow-Origin': '*',
-              }
-          })
-          var exam2 = await response2.json();
-          console.log(exam2);
-          this.setState({ person2: exam2, loading: false });
-  
-          var response3 = await fetch('https://teniswebsite.example.com:5001/api/v1/Result/TableLegue/3', {
-              credentials: "include",
-              method: 'GET',
-              headers: {
-                  'Accept': '/*',
-                  'Content-Type': 'application/json',
-                  'Access-Control-Allow-Origin': '*',
-              }
-          })
-          var exam3 = await response3.json();
-          console.log(exam3);
-          this.setState({ person3: exam3, loading: false });
-  
-          var response4 = await fetch('https://teniswebsite.example.com:5001/api/v1/Result/LastMatchesAll', {
-              credentials: "include",
-              method: 'GET',
-              headers: {
-                  'Accept': '/*',
-                  'Content-Type': 'application/json',
-                  'Access-Control-Allow-Origin': '*',
-              }
-          })
-          var exam4 = await response4.json();
-          console.log(exam4);
-          this.setState({ matches: exam4, loading: false });
-  
-          var response5 = await fetch('https://teniswebsite.example.com:5001/api/v1/Result/TableRanking', {
-              credentials: "include",
-              method: 'GET',
-              headers: {
-                  'Accept': '/*',
-                  'Content-Type': 'application/json',
-                  'Access-Control-Allow-Origin': '*',
-              }
-          })
-          var exam5 = await response5.json();
-          console.log(exam5);
-          this.setState({ table: exam5, loading: false });
-      }
+    /* async componentDidMount() {
+         var response1 = await fetch('https://teniswebsite.example.com:5001/api/v1/Result/TableLegue/1', {
+             credentials: "include",
+             method: 'GET',
+             headers: {
+                 'Accept': '/*',
+                 'Content-Type': 'application/json',
+                 'Access-Control-Allow-Origin': '*',
+             }
+         })
+         var exam1 = await response1.json();
+         console.log(exam1);
+         this.setState({ person1: exam1, loading: false });
+ 
+         var response2 = await fetch('https://teniswebsite.example.com:5001/api/v1/Result/TableLegue/2', {
+             credentials: "include",
+             method: 'GET',
+             headers: {
+                 'Accept': '/*',
+                 'Content-Type': 'application/json',
+                 'Access-Control-Allow-Origin': '*',
+             }
+         })
+         var exam2 = await response2.json();
+         console.log(exam2);
+         this.setState({ person2: exam2, loading: false });
+ 
+         var response3 = await fetch('https://teniswebsite.example.com:5001/api/v1/Result/TableLegue/3', {
+             credentials: "include",
+             method: 'GET',
+             headers: {
+                 'Accept': '/*',
+                 'Content-Type': 'application/json',
+                 'Access-Control-Allow-Origin': '*',
+             }
+         })
+         var exam3 = await response3.json();
+         console.log(exam3);
+         this.setState({ person3: exam3, loading: false });
+ 
+         var response4 = await fetch('https://teniswebsite.example.com:5001/api/v1/Result/LastMatchesAll', {
+             credentials: "include",
+             method: 'GET',
+             headers: {
+                 'Accept': '/*',
+                 'Content-Type': 'application/json',
+                 'Access-Control-Allow-Origin': '*',
+             }
+         })
+         var exam4 = await response4.json();
+         console.log(exam4);
+         this.setState({ matches: exam4, loading: false });
+ 
+         var response5 = await fetch('https://teniswebsite.example.com:5001/api/v1/Result/TableRanking', {
+             credentials: "include",
+             method: 'GET',
+             headers: {
+                 'Accept': '/*',
+                 'Content-Type': 'application/json',
+                 'Access-Control-Allow-Origin': '*',
+             }
+         })
+         var exam5 = await response5.json();
+         console.log(exam5);
+         this.setState({ table: exam5, loading: false });
+     }*/
 
     generateTableData1() {
         let res = [];
