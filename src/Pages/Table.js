@@ -227,7 +227,7 @@ class Table extends React.Component {
         return (
             <Wrapper>
 
-                <div className="menubok">
+                <div className="menubok" id="target-one">
                     <div className="vertical-tabs">
                         <ul className="nav nav-tabs" role="tablist">
                             <li className="nav-item">
@@ -255,12 +255,12 @@ class Table extends React.Component {
                                 <div className="tabbable-panel">
                                     <div className="tabbable-line tabs-below">
                                         <div className="ilosckontent">
-                                            <div className="tab-content">
+                                            <div className="tab-content" >
                                                 <div className="tab-pane active" id="tab_below_1">
 
-                                                    <table className="table2" >
-                                                        <tbody>
-                                                            <tr>
+                                                    <table className="table2"  >
+                                                        <tbody >
+                                                            <tr id="target-one">
                                                                 <th>Miejsce </th>
                                                                 <th>Imie </th>
                                                                 <th>Nazwisko </th>
@@ -275,7 +275,7 @@ class Table extends React.Component {
                                                 <div className="tab-pane" id="tab_below_2">
                                                     <table className="table2" >
                                                         <tbody>
-                                                            <tr>
+                                                            <tr id="target-one">
                                                                 <th>Miejsce </th>
                                                                 <th>Imie </th>
                                                                 <th>Nazwisko </th>
@@ -288,7 +288,7 @@ class Table extends React.Component {
                                                 <div className="tab-pane" id="tab_below_3">
                                                     <table className="table2" >
                                                         <tbody>
-                                                            <tr>
+                                                            <tr id="target-one">
                                                                 <th>Miejsce </th>
                                                                 <th>Imie </th>
                                                                 <th>Nazwisko </th>
@@ -300,18 +300,18 @@ class Table extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="ilosctabs">
+                                        <div className="ilosctabs" >
                                             <ul className="nav nav-tabs" role="tablist">
                                                 <li >
-                                                    <a className="nav-link active" href="#tab_below_1" data-toggle="tab">
+                                                    <a className="nav-link active" href="#tab_below_1" data-toggle="tab" id="target-one">
                                                         TOP 10 </a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className="nav-link" href="#tab_below_2" data-toggle="tab">
+                                                    <a className="nav-link" href="#tab_below_2" data-toggle="tab" id="target-one">
                                                         11-20 </a>
                                                 </li>
                                                 <li className="nav-item">
-                                                    <a className="nav-link" href="#tab_below_3" data-toggle="tab">
+                                                    <a className="nav-link" href="#tab_below_3" data-toggle="tab" id="target-one">
                                                         21-30 </a>
                                                 </li>
 
@@ -326,7 +326,7 @@ class Table extends React.Component {
                             <div className="sv-tab-panel">
                                 <table className="table2" >
                                     <tbody>
-                                        <tr>
+                                        <tr id="target-one">
                                             <th>Miejsce </th>
                                             <th>Imie </th>
                                             <th>Nazwisko </th>
@@ -345,7 +345,7 @@ class Table extends React.Component {
                             <div className="sv-tab-panel">
                                 <table className="table2" >
                                     <tbody>
-                                        <tr>
+                                        <tr id="target-one">
                                             <th>Miejsce </th>
                                             <th>Imie </th>
                                             <th>Nazwisko </th>
@@ -365,7 +365,7 @@ class Table extends React.Component {
                             <div className="sv-tab-panel">
                                 <table className="table2" >
                                     <tbody>
-                                        <tr>
+                                        <tr id="target-one">
                                             <th>Miejsce </th>
                                             <th>Imie </th>
                                             <th>Nazwisko </th>
@@ -384,7 +384,7 @@ class Table extends React.Component {
                             <div className="sv-tab-panel">
                                 <table className="table2" >
                                     <tbody>
-                                        <tr>
+                                        <tr id="target-one">
                                             <th>Gracz 1 </th>
                                             <th>Set1 </th>
                                             <th>Set2 </th>

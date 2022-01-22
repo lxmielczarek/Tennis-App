@@ -65,7 +65,7 @@ export default class Contact extends Component {
 
         return (
             <Wrapper>
-                <div className="formularz">
+                <div className="formularz" id="target-one">
                     <div className="formtitle">
                         Masz pytania? <br />
                         Skontaktuj się z nami!

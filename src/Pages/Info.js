@@ -6,7 +6,7 @@ function Info() {
         <Wrapper>
             <div className="row">
                 <div className="col-5">
-                    <p className="tytul">Informacje </p>
+                    <p className="tytul" id="target-one">Informacje </p>
                     <br />
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1270.74526864324!2d18.117495708334832!3d50.431963053420056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47110588ed87522b%3A0x9313d9003d5aa90a!2s47-330%20Zdzieszowice!5e0!3m2!1spl!2spl!4v1586171552298!5m2!1spl!2spl" width="400" height="450" frameBorder="0" className="imageinfo" allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
 

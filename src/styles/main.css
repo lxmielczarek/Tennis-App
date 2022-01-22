@@ -8,6 +8,7 @@
 .opiskontakt{
   color: whitesmoke;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1rem;
   margin-left: 5%;
   text-shadow: -2.5px 1px black, 1px 2.5px black, 2.5px 1px black, 1px -2.5px black;
 }
